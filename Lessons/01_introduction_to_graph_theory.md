@@ -16,15 +16,15 @@ At its core, a graph is a collection of **nodes** (also called vertices) connect
 
 - **Directed Graph Example: Social Network**
    - **Vertices (Nodes):**
-      - User A
-      - User B
-      - User C
+   - User A
+   - User B
+   - User C
 
    - **Edges (Directed Relationships):**
-      - A → B (User A follows User B)
-      - B → C (User B follows User C)
-      - C → A (User C follows User A)
-      - A → C (User A follows User C)
+   - A → B (User A follows User B)
+   - B → C (User B follows User C)
+   - C → A (User C follows User A)
+   - A → C (User A follows User C)
 
    - **Visualization**
 
@@ -36,10 +36,10 @@ At its core, a graph is a collection of **nodes** (also called vertices) connect
       ```
 
    - **Explanation**
-      In this directed graph:
-      - Each user is represented as a node.
-      - The arrows (directed edges) indicate the direction of the relationship (who follows whom).
-      - This example effectively demonstrates the concept of directed graphs, where the edges have a specific direction, highlighting the one-way nature of the relationships.
+   In this directed graph:
+   - Each user is represented as a node.
+   - The arrows (directed edges) indicate the direction of the relationship (who follows whom).
+   - This example effectively demonstrates the concept of directed graphs, where the edges have a specific direction, highlighting the one-way nature of the relationships.
 
 
 
@@ -47,14 +47,14 @@ At its core, a graph is a collection of **nodes** (also called vertices) connect
   
    - **Undirected Graph Example: Social Network**
       - **Vertices (Nodes):**
-         - User A
-         - User B
-         - User C
+      - User A
+      - User B
+      - User C
 
       - **Edges (Undirected Relationships):**
-         - A -- B (User A is friends with User B)
-         - A -- C (User A is friends with User C)
-         - B -- C (User B is friends with User C)
+      - A -- B (User A is friends with User B)
+      - A -- C (User A is friends with User C)
+      - B -- C (User B is friends with User C)
 
    - **Visualization**
 
@@ -65,10 +65,10 @@ At its core, a graph is a collection of **nodes** (also called vertices) connect
       ```
 
    - **Explanation**
-      In this undirected graph:
-      - Each user is represented as a node.
-      - The lines (undirected edges) indicate the mutual friendships between users, meaning if User A is friends with User B, then User B is also friends with User A.
-      - This example effectively demonstrates the concept of undirected graphs, where the edges do not have a direction, highlighting the reciprocal nature of the relationships.
+   In this undirected graph:
+   - Each user is represented as a node.
+   - The lines (undirected edges) indicate the mutual friendships between users, meaning if User A is friends with User B, then User B is also friends with User A.
+   - This example effectively demonstrates the concept of undirected graphs, where the edges do not have a direction, highlighting the reciprocal nature of the relationships.
 
 
 ### Types of Graphs
@@ -80,17 +80,17 @@ Graphs come in various shapes and sizes, each suited for different applications.
    - **Weighted Graph Example: Transportation Network**
 
       - **Vertices (Nodes):**
-         - A (City A)
-         - B (City B)
-         - C (City C)
-         - D (City D)
+      - A (City A)
+      - B (City B)
+      - C (City C)
+      - D (City D)
 
       - **Edges (Weighted Relationships):**
-         - A -- B (weight: 5)  (Distance from City A to City B is 5 miles)
-         - A -- C (weight: 10) (Distance from City A to City C is 10 miles)
-         - B -- C (weight: 2)  (Distance from City B to City C is 2 miles)
-         - B -- D (weight: 4)  (Distance from City B to City D is 4 miles)
-         - C -- D (weight: 1)  (Distance from City C to City D is 1 mile)
+      - A -- B (weight: 5)  (Distance from City A to City B is 5 miles)
+      - A -- C (weight: 10) (Distance from City A to City C is 10 miles)
+      - B -- C (weight: 2)  (Distance from City B to City C is 2 miles)
+      - B -- D (weight: 4)  (Distance from City B to City D is 4 miles)
+      - C -- D (weight: 1)  (Distance from City C to City D is 1 mile)
 
       - **Visualization**
 
@@ -107,10 +107,10 @@ Graphs come in various shapes and sizes, each suited for different applications.
          ```
 
       - **Explanation**
-         In this weighted graph:
-         - Each city is represented as a node (vertex).
-         - The edges between the nodes represent the roads connecting the cities, with weights indicating the distance (or travel time) associated with each road.
-         - This example effectively demonstrates the concept of weighted graphs, where the edges have associated weights that provide additional information about the relationships between the nodes.
+      In this weighted graph:
+      - Each city is represented as a node (vertex).
+      - The edges between the nodes represent the roads connecting the cities, with weights indicating the distance (or travel time) associated with each road.
+      - This example effectively demonstrates the concept of weighted graphs, where the edges have associated weights that provide additional information about the relationships between the nodes.
 
 
 2. **Unweighted Graph**: In an unweighted graph, edges do not have weights. All edges are treated equally, which simplifies many algorithms. For example, in a social network graph, you might simply want to know if two users are connected, regardless of the strength of their relationship.
@@ -120,16 +120,16 @@ Graphs come in various shapes and sizes, each suited for different applications.
    - **Cyclic Graph Example: Circular Pathway**
 
       **Vertices (Nodes):**
-         - A (Location A)
-         - B (Location B)
-         - C (Location C)
-         - D (Location D)
+      - A (Location A)
+      - B (Location B)
+      - C (Location C)
+      - D (Location D)
 
       **Edges (Relationships):**
-         - A -- B (Path from Location A to Location B)
-         - B -- C (Path from Location B to Location C)
-         - C -- D (Path from Location C to Location D)
-         - D -- A (Path from Location D back to Location A)
+      - A -- B (Path from Location A to Location B)
+      - B -- C (Path from Location B to Location C)
+      - C -- D (Path from Location C to Location D)
+      - D -- A (Path from Location D back to Location A)
 
       - **Visualization**
 
@@ -142,10 +142,10 @@ Graphs come in various shapes and sizes, each suited for different applications.
          ```
 
       - **Explanation**
-         In this cyclic graph:
-         - Each location is represented as a node.
-         - The edges connect the nodes in a circular manner, allowing for a continuous path that starts and ends at the same node (e.g., starting at A, moving to B, C, D, and returning to A).
-         - This example effectively demonstrates the concept of cyclic graphs, where there is at least one cycle present, allowing traversal through the graph in a loop.
+      In this cyclic graph:
+      - Each location is represented as a node.
+      - The edges connect the nodes in a circular manner, allowing for a continuous path that starts and ends at the same node (e.g., starting at A, moving to B, C, D, and returning to A).
+      - This example effectively demonstrates the concept of cyclic graphs, where there is at least one cycle present, allowing traversal through the graph in a loop.
 
 
 4. **Acyclic Graph**: An acyclic graph does not contain any cycles. A common example of an acyclic graph is a **tree**, which is a special type of graph used to represent hierarchical structures, such as family trees or organizational charts.
@@ -153,17 +153,17 @@ Graphs come in various shapes and sizes, each suited for different applications.
    - **Acyclic Graph Example: Tree Structure**
 
       **Vertices (Nodes):**
-         - A (Root)
-         - B (Child of A)
-         - C (Child of A)
-         - D (Child of B)
-         - E (Child of B)
+      - A (Root)
+      - B (Child of A)
+      - C (Child of A)
+      - D (Child of B)
+      - E (Child of B)
 
       **Edges (Relationships):**
-         - A -- B (A is the parent of B)
-         - A -- C (A is the parent of C)
-         - B -- D (B is the parent of D)
-         - B -- E (B is the parent of E)
+      - A -- B (A is the parent of B)
+      - A -- C (A is the parent of C)
+      - B -- D (B is the parent of D)
+      - B -- E (B is the parent of E)
 
       - **Visualization**
 
@@ -176,10 +176,10 @@ Graphs come in various shapes and sizes, each suited for different applications.
          ```
 
       - **Explanation**
-         In this acyclic graph:
-         - Each node represents an entity (e.g., a person, object, or concept).
-         - The edges represent parent-child relationships, showing the hierarchy.
-         - There are no cycles present, as it is impossible to return to the root node (A) by traversing the edges.
+      In this acyclic graph:
+      - Each node represents an entity (e.g., a person, object, or concept).
+      - The edges represent parent-child relationships, showing the hierarchy.
+      - There are no cycles present, as it is impossible to return to the root node (A) by traversing the edges.
 
 ### Real-World Applications of Graphs
 
