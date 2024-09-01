@@ -123,7 +123,7 @@ To clone this repository, follow these steps:
 
 ## Usage
 
-Once you have cloned the repository, you can open the lesson markdown files located in the `Lessons` directory to start learning about graph-oriented programming. Each lesson contains detailed explanations, examples, and exercises to help you understand the concepts.
+Once you have cloned the repository, you can open the lesson markdown files located in the [`Lessons`](Lessons) directory to start learning about graph-oriented programming. Each lesson contains detailed explanations, examples, and exercises to help you understand the concepts.
 
 ## License
 
