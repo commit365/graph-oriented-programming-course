@@ -161,7 +161,6 @@ Now it’s your turn to practice your advanced Cypher skills! Follow these steps
    - Find all friends of Alice who are older than 25.
    - Count the total number of friends each user has.
    - Find friends of friends of Bob.
-   - Collect the names of all users who live in New York.
 
 3. **Experiment**: Feel free to modify the data or add new users and relationships. See how your queries change based on the graph structure!
 
