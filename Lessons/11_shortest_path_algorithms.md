@@ -1,6 +1,6 @@
 # Lesson 11: Shortest Path Algorithms
 
-Welcome back, intrepid graph explorers! In this lesson, we’re going to navigate the thrilling terrain of **shortest path algorithms**. Whether you’re finding the quickest route on a map or optimizing network traffic, understanding how to determine the shortest path in a graph is a crucial skill. We’ll dive into **Dijkstra’s algorithm** and the **A* search algorithm**, exploring their mechanics, applications, and the magic of heuristics. Let’s get started on this exciting journey!
+Welcome back, intrepid graph explorers! In this lesson, we’re going to navigate the thrilling terrain of **shortest path algorithms**. Whether you’re finding the quickest route on a map or optimizing network traffic, understanding how to determine the shortest path in a graph is a crucial skill. We’ll dive into **Dijkstra’s algorithm** and the **A\* search algorithm**, exploring their mechanics, applications, and the magic of heuristics. Let’s get started on this exciting journey!
 
 ## What Are Shortest Path Algorithms?
 
